@@ -1,3 +1,5 @@
+name: Xcodebuild
+on: pull_request
 jobs:
   build:
     runs-on: macos-latest
