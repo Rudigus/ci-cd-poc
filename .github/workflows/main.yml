@@ -7,4 +7,4 @@ jobs:
       - uses: mxcl/xcodebuild@v1
       # ^^ this is the simplest use, runs tests for whatever platform `xcodebuild` picks
       - name: Force Xcode 12.5.1
-      run: sudo xcode-select -switch /Applications/Xcode_12.5.1.app
+        run: sudo xcode-select -switch /Applications/Xcode_12.5.1.app
